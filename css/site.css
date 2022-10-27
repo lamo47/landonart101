@@ -1,0 +1,26 @@
+h1{
+  color: #004D05;
+  font-size: 200%;
+}
+
+h2{
+  color: #004D05;
+}
+
+h3{
+  color: #004D05;
+}
+
+p{
+  color: white;
+  font-size: 100%
+  font-family:"Times New Roman";
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+body {background-color: #FF8C37;}
+
+#my-portrait {
+  width: 500px;
+}
