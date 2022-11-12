@@ -4,22 +4,27 @@
 * License: Public Domain
 */
 
+// call for button
 $("#button1");
+// add an event listener to button
 $("button").click(function(){
   alert("My Challenges");
 });
-
-slideShowElement = $("#button2");
+// call for next button
+$("#button2");
+// add an event listener to button
 $("button").click(function(){
   alert("My Problems");
 });
-
-slideShowElement = $("#button3");
+// call for next button
+$("#button3");
+// add an event listener to button
 $("button").click(function(){
   alert("My Results");
 });
 
-
+// add another event listener to first button
 $("#button1").click(function(){
+  // toggle the class of "challenges" div
   $(".challenges").toggleClass("special");
 });
