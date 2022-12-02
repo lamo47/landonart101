@@ -1,0 +1,50 @@
+h1{
+  color: #FF3FD3;
+  font-size: 200%;
+
+}
+
+h2{
+  color: #FF3FD3;
+  font-size: 200%;
+
+}
+
+h3{
+  color: #FF3FD3;
+  font-size: 200%;
+
+}
+
+p{
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-size: 100%;
+  font-family: "Times New Roman";
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+body {
+  background-color: #75FF9F;
+}
+
+img {
+  width: 500px;
+}
+
+.input-output {
+  color: orange;
+  font-size: 200%;
+  font-family: "Impact";
+  border: solid 2px orange;
+  background-color: #006F0A;
+}
+
+.output {
+  color: #FF3FD3;
+}
+
+.content {
+  border: solid 2px #FF3FD3;
+}

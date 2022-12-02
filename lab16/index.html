@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Lab 16: JSON and APIs</title>
+  <link rel="stylesheet" type="text/css" href="css/lab16.css">
+  <script src="js/lab16.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="content">
+  <h1>Lab 16: JSON and APIs</h1>
+  <p>Experiment with processing JSON from an API.</p>
+  <h2>Challenges</h2>
+  <p>This lab wasn't too hard because it was very similar to lab 15 so I was
+  able to work through it with what I had already learned. It was challenging to
+get this new api working by myself though with no direct example and just having
+to apply the code from different examples in lecture to this specific api. I also
+ran into the problem of having the CORS error that was blocking my information
+from being displayed and didn't realize how simple it was to fix for awhile.</p>
+  <h2>Problems</h2>
+  <p>Some problems I ran into in this lab were having the CORS error and having
+  to get the chrome extension to unblock it so my api data would display properly.
+I also struggled with rewriting the JS code because it was a little different
+from the last lab and I couldn't figure out how to make it work with the comicObj
+thing from the lab module so I just used jquery to call for my output and append
+and display the different pieces of data. I also couldn't figure out how to create
+the different functions to have it move through the different comics with the next
+and previous buttons so I just stuck with displaying the one comic, its title,
+and description.</p>
+  <h2>Results</h2>
+  <p>Here are my results, you can test out the button for yourself and it will
+  display the comic of the day from the xkcd api and you can check the console
+to see what is going on in the background:</p>
+  </div>
+  <button id="activate">Fetch Data</button>
+  What is today's comic?
+  <div id="output"></div>
+  </body>
+</html>
